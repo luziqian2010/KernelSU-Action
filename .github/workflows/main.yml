@@ -1,7 +1,7 @@
 name: Check and Build
 
 env:
-  kernel_repository: crdroidandroid/android_kernel_xiaomi_rova:14.0
+  kernel_repository: luziqian2010/android_kernel_xiaomi_rova/tree/14.0
   kernel_branch: fourteen
   device: dipper
   clang_version: r383902
