@@ -182,6 +182,7 @@ jobs:
 
       - name: Make
         run: |
+          sudo which aarch64-linux-gnu-gcc
           make $flags -j$(nproc --all)
 
       - name: AnyKernel3
