@@ -6,7 +6,7 @@ env:
   device: mate9pro
   clang_version: r365631c
   defconfig: |
-    Pangu_Krin960_defconfig
+    Pangu_Kirin960_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
