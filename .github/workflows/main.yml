@@ -1,10 +1,10 @@
 name: Check and Build
 
 env:
-  kernel_repository: luziqian2010/android_kernel_xiaomi_rova/tree/14.0
-  kernel_branch: fourteen
-  device: dipper
-  clang_version: r383902
+  kernel_repository: maimaiguanfan/android_kernel_huawei_hi3660
+  kernel_branch: HarmonyOS
+  device: mate9
+  clang_version: r365631c
   defconfig: |
     dipper_defconfig
   kernel_patch: |
