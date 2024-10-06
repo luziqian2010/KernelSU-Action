@@ -3,7 +3,7 @@ name: Check and Build
 env:
   kernel_repository: maimaiguanfan/android_kernel_huawei_hi3660
   kernel_branch: HarmonyOS
-  device: mate9
+  device: mate9pro
   clang_version: r365631c
   defconfig: |
     Pangu_Krin960_defconfig
