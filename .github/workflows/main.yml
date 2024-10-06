@@ -67,7 +67,9 @@ jobs:
           sudo apt install -y \
               binutils-arm-linux-gnueabi \
               binutils-aarch64-linux-gnu \
-              lib32z1
+              lib32z1 \
+              g++-11-aarch64-linux-gnu \
+              gcc-aarch64-linux-gnu
 
       - name: Checkout kernel source
         uses: actions/checkout@v4
@@ -182,7 +184,6 @@ jobs:
 
       - name: Make
         run: |
-          sudo which aarch64-linux-gnu-gcc
           make $flags -j$(nproc --all)
 
       - name: AnyKernel3
