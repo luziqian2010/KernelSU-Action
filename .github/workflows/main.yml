@@ -24,7 +24,7 @@ on:
 jobs:
   check_kernelsu_update:
     name: Check KernelSU update
-    runs-on: ubuntu:22.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Check KernelSU version
         id: check_kernelsu_version
