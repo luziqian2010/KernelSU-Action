@@ -68,7 +68,6 @@ jobs:
               binutils-arm-linux-gnueabi \
               binutils-aarch64-linux-gnu \
               lib32z1 \
-              g++-11-aarch64-linux-gnu \
               gcc-aarch64-linux-gnu
 
       - name: Checkout kernel source
