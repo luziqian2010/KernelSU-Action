@@ -8,7 +8,7 @@ env:
   defconfig: |
     Pangu_Kirin960_defconfig
   kernel_patch: |
-    backport-path-umount.patch
+    allow-init-exec-ksud-under-nosuid.patch
   kernelsu_patch: |
 
 on:
